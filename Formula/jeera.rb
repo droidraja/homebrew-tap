@@ -1,20 +1,20 @@
 class Jeera < Formula
   desc "A TUI App for Jira built using Rust"
   homepage "https://github.com/droidraja/jeera"
-  version "0.1.2"
+  version "0.1.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/droidraja/jeera/releases/download/v0.1.2/jeera-aarch64-apple-darwin.tar.xz"
-      sha256 "3fd63bd71f03866579f46a2fceb29ebd9406f94be3542d9c9e8325eb2c819313"
+      url "https://github.com/droidraja/jeera/releases/download/v0.1.3/jeera-aarch64-apple-darwin.tar.xz"
+      sha256 "0867da7ee1cf880273351b60481489b897f09e1f8fdedc33a0ea2e3a04840a73"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/droidraja/jeera/releases/download/v0.1.2/jeera-x86_64-apple-darwin.tar.xz"
-      sha256 "d49854680e841543fd6ff0d69813628e7f6169b8e53ad53d31ad964bbbb2f926"
+      url "https://github.com/droidraja/jeera/releases/download/v0.1.3/jeera-x86_64-apple-darwin.tar.xz"
+      sha256 "0af85ca32f04e9dd1c75ea0314bf4c5f63704d4ee00054f84b7c5c0a78c2fa27"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/droidraja/jeera/releases/download/v0.1.2/jeera-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "769c4120bb2dc0d6a835539afb705a6a1f7c57e8c3afea11a1d657ea017d4bc2"
+    url "https://github.com/droidraja/jeera/releases/download/v0.1.3/jeera-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "08082d221de0ec33f93fe0ba32f38b7c08e43d22bc89ab618f0415a84cb49d8a"
   end
   license "Apache-2.0"
 
